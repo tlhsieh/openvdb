@@ -65,10 +65,10 @@ make install
 #### macOS
 ##### Installing Dependencies (Boost, TBB, OpenEXR, Blosc)
 ```
-brew install boost
-brew install tbb
+brew install boost-python3
 brew install ilmbase
 brew install openexr
+brew install tbb
 ```
 ```
 git clone git@github.com:Blosc/c-blosc.git
