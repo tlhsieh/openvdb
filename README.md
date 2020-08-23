@@ -1,3 +1,5 @@
+(this fork is configured to install OpenVDB with NumPy support)
+
 ![OpenVDB](https://www.openvdb.org/images/openvdb_logo.png)
 
 [![License](https://img.shields.io/github/license/AcademySoftwareFoundation/openvdb)](LICENSE.md)
@@ -83,7 +85,7 @@ cd ../..
 ```
 ##### Building OpenVDB
 ```
-git clone git@github.com:AcademySoftwareFoundation/openvdb.git
+git clone git@github.com:tlhsieh/openvdb.git
 cd openvdb
 mkdir build
 cd build
