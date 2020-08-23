@@ -19,7 +19,7 @@ include(GNUInstallDirs)
 ###### OpenVDB Python Options
 
 option(USE_NUMPY [=[
-Build the python library with numpy support. Currently requires CMake 3.14.]=] OFF)
+Build the python library with numpy support. Currently requires CMake 3.14.]=] ON)
 option(OPENVDB_PYTHON_WRAP_ALL_GRID_TYPES [=[
 Expose (almost) all of the grid types in the python module. Otherwise, only FloatGrid, BoolGrid and
 Vec3SGrid will be exposed (see, e.g., exportIntGrid() in python/pyIntGrid.cc). Compiling the Python
